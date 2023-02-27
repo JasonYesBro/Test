@@ -16,7 +16,7 @@ public class GetMehodQuiz01 extends HttpServlet {
 		response.setContentType("text/html");
 		response.setCharacterEncoding("utf-8");
 		
-		// Integer(wrapper class)를 이용하여 int형을 String으로 형변환
+		// Integer(wrapper class)를 이용하여 문자열을 숫자로 형변환
 		int num = Integer.parseInt(request.getParameter("number"));
 		
 		PrintWriter out = response.getWriter();
