@@ -19,15 +19,7 @@ public class GetParameter01 extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
-		String formTag = "<form action="+ "\"number>\"" +">";
 		
-		out.print(formTag);
-		for( int i =2; i < 10; i++) {
-			
-		String aTag = "<a href=localhost:/lesson01/getparameter?number=" + i + ">" + i + "단</a>";
-		out.print(aTag + "<hr>");
-		}
-		out.print("</form>");
 		
 		}
 	
